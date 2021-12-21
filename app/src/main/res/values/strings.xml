@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToDoListApplication</string>
+<!--    <string name="delete_confirmation">Confirmation</string>-->
+    <string name="sureToDelete">آیا می خواهید این رویداد را حذف کنید؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="confirmation">کامل شد...!</string>
+    <string name="sureToMarkAsComplete">آیا این رویداد کامل شده است؟ </string>
+    <string name="congrats_you_have_completed_the_task_successfully">این رویداد کامل شد</string>
+</resources>

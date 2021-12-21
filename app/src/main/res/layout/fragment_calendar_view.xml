@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color5"
+            android:textSize="25sp"
+            android:textDirection="rtl"
+            android:text="تقویم"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="right|center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/back"
+            android:background="@drawable/ic_arrow_back_black_24dp"/>
+
+    </FrameLayout>
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        app:pagesColor="@color/colorPrimaryDark"
+        app:highlightedDaysLabelsColor="@color/color2"
+        app:daysLabelsColor="#FFFFFF"
+        app:abbreviationsLabelsColor="#FFFFFF"
+        app:abbreviationsBarColor="@color/colorPrimaryDark"
+        app:anotherMonthsDaysLabelsColor="@color/colorAccent"
+        app:headerColor="@color/colorP2"
+        app:headerLabelColor="@color/color2"
+        app:todayLabelColor="@color/color2"
+
+        android:outlineAmbientShadowColor="@color/color2"
+        android:outlineSpotShadowColor="@color/color2"
+        app:selectionColor="@color/color2"
+        app:disabledDaysLabelsColor="@color/color2"
+        app:selectionLabelColor="@color/color2"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
